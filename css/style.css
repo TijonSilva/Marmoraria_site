@@ -4026,7 +4026,8 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding-top: 0.5rem; /* Ajuste o valor conforme necessário */
+  padding-bottom: 0.5rem; /* Ajuste o valor conforme necessário */
 }
 
 .navbar .container,
@@ -4039,8 +4040,8 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.25rem; /* Ajuste o valor conforme necessário */
+  padding-bottom: 0.25rem; /* Ajuste o valor conforme necessário */
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
