@@ -9690,3 +9690,14 @@ h6 {
   padding: 0;
   list-style-type: none;
 }
+
+.carousel-caption {
+    background: none !important; /* Remove o fundo preto com !important */
+}
+
+/* Adicione uma regra específica para dispositivos móveis, se necessário */
+@media (max-width: 576px) {
+    .carousel-caption {
+        background: none !important; /* Certifique-se de que o fundo também é removido em dispositivos móveis */
+    }
+}
