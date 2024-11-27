@@ -9704,7 +9704,7 @@ h6 {
 
 @media (max-width: 576px) {
     .d-flex.flex-column.bg-primary {
-        margin-left: 15px; /* Adiciona margem à esquerda */
-        width: calc(100% - 15px); /* Ajusta a largura considerando a margem */
+        margin-left: 25px; /* Adiciona margem à esquerda */
+        width: calc(100% - 35px); /* Ajusta a largura considerando a margem */
     }
 }
