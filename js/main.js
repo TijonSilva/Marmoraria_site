@@ -39,7 +39,7 @@
         smartSpeed: 1500,
         dots: false,
         loop: true,
-        nav : true,
+        nav : false,
         navText : [
             '<i class="fa fa-angle-left" aria-hidden="true"></i>',
             '<i class="fa fa-angle-right" aria-hidden="true"></i>'
