@@ -9708,3 +9708,10 @@ h6 {
         width: calc(100% - 35px); /* Ajusta a largura considerando a margem */
     }
 }
+@media (max-width: 576px) {
+  .d-flex.flex-column.bg-primary {
+      margin-left: auto; /* Centraliza horizontalmente */
+      margin-right: auto; /* Centraliza horizontalmente */
+      width: 100%; /* Usa toda a largura disponível */
+  }
+}
