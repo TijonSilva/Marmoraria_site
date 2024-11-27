@@ -9701,3 +9701,10 @@ h6 {
         background: none !important; /* Certifique-se de que o fundo também é removido em dispositivos móveis */
     }
 }
+
+@media (max-width: 576px) {
+    .d-flex.flex-column.bg-primary {
+        margin-left: 15px; /* Adiciona margem à esquerda */
+        width: calc(100% - 15px); /* Ajusta a largura considerando a margem */
+    }
+}
