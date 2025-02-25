@@ -106,7 +106,7 @@
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 5,
+        smartSpeed: 1500,
         items: 1,
         dots: false,
         loop: true,
@@ -115,6 +115,19 @@
             '<i class="fa fa-angle-left" aria-hidden="true"></i>',
             '<i class="fa fa-angle-right" aria-hidden="true"></i>'
         ]
+    });
+    
+    // Função para garantir o carregamento correto das imagens e layout
+    $(window).on('load', function() {
+        // Recalcular o layout do Isotope após carregamento completo
+        setTimeout(function() {
+            if (portfolioIsotope) {
+                portfolioIsotope.isotope('layout');
+            }
+            
+            // Atualizar todos os carrosséis
+            $('.owl-carousel').trigger('refresh.owl.carousel');
+        }, 500);
     });
     
 })(jQuery);
